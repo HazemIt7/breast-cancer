@@ -12,27 +12,6 @@ Ce projet met en œuvre et évalue différentes approches de Convolutional Neura
 3.  L'implémentation et l'évaluation du Transfer Learning (avec DenseNet121 et fine-tuning).
 4.  Le déploiement du meilleur modèle en tant qu'API web sur Google Cloud Run à l'aide de Flask et Docker.
 
-## Structure du Projet
-.
-├── Project_Notebook.ipynb     # Notebook Jupyter contenant l'analyse, l'entraînement et l'évaluation des modèles
-
-├── API/
-
-│   ├── main.py                # Script de l'API Flask pour la prédiction
-
-│   ├── requirements.txt       # Dépendances Python pour l'API
-
-│   ├── Dockerfile             # Fichier Docker pour conteneuriser l'API
-
-├── sample_images/             # Quelques images pour tester l'API
-
-│   ├── benign_test.png
-
-│   └── malignant_test.png
-
-├── Report.pdf                 # Rapport détaillé du projet
-
-└── README.md                  # Ce fichier
 
 ## Installation et Prérequis (Pour exécution locale)
 
