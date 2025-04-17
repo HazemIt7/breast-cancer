@@ -93,7 +93,7 @@ L'API de prédiction a été conteneurisée avec Docker et déployée sur **Goog
     **Exemple avec `curl` :**
     ```bash
     # Remplacez /chemin/vers/votre/image.png par le chemin d'une image locale
-    curl -X POST -F "file=@/chemin/vers/votre/image.png" [https://breast-cancer-54106035782.europe-west1.run.app/predict](https://breast-cancer-54106035782.europe-west1.run.app/predict)
+    curl -X POST -F "file=@/chemin/vers/votre/image.png" https://breast-cancer-54106035782.europe-west1.run.app/predict
     ```
     *(Vous pouvez utiliser les images dans le dossier `sample_images/` de ce dépôt pour tester).*
 
