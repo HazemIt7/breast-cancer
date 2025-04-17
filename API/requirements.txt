@@ -1,0 +1,10 @@
+tensorflow-cpu
+flask
+numpy
+pandas
+matplotlib
+plotly
+seaborn
+scikit-learn
+opencv-python
+gunicorn
